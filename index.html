@@ -1,0 +1,517 @@
+
+<!DOCTYPE html>
+<html>
+<title>Student Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="csstyles.css">
+<link rel="stylesheet" type="text/css" href="slidestyle.css">
+<link rel="stylesheet" type="text/css" href="time.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Flamenco'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Flamenco"}
+footer {
+    background-color: #282828;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+  .isthird .image{margin-bottom: -6px; opacity: 0.6; cursor: pointer; height: 200px;}
+  .isthird .image:hover{opacity: 1}
+
+.parallax {
+  /* The image used */
+  background-image: url("bg1.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url("course3.gif");
+  min-height: 450px;
+
+}
+
+.bgimg-2 {
+  background-image: url("events3.jpg");
+  min-height: 450px;
+}
+
+.bgimg-3 {
+  background-image: url("contact3.gif");
+  min-height: 450px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1400px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+
+#more {display: none;}
+
+</style>
+
+<body class="parallax" >
+
+  <!--<header>Welcome to my porfolio</header> -->
+
+<!-- Header -->
+<header class="isdisplay-container iscontent iscenter" style="max-width:100%">
+  <img  src="header4.jpg" alt="Me" width="100%" height="500" >
+  <div class="isdisplay-middle ispadding-large isborder iswide istext-light-grey iscenter">
+    <h1 class="ishide-medium ishide-small isxxxlarge">Aishwarya Nadar</h1>
+    <h5 class="ishide-large" style="white-space:nowrap">Aishwarya Nadar</h5>
+    <h3 class="ishide-small">E-Portfolio</h3>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="isbar isteal isround isdisplay-bottommiddle ishide-small" style="bottom:-16px">
+    <a href="#About" class="isbar-item isbutton">About me</a>
+    <a href="#Profile" class="isbar-item isbutton">Profile</a>
+    <a href="#Goals" class="isbar-item isbutton">Goals</a>
+    <a href="#Courses" class="isbar-item isbutton">Courses</a>
+    <a href="#Activities" class="isbar-item isbutton">Outside Classroom</a>
+    <a href="#contact" class="isbar-item isbutton">Contact</a>
+  </div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="iscenter islight-grey ispadding-16 ishide-large ishide-medium">
+<div class="isbar islight-grey">
+  <a href="#About" class="isbar-item isbutton">About me</a>
+  <a href="#Profile" class="isbar-item isbutton">Profile</a>
+  <a href="#Goals" class="isbar-item isbutton">Goals</a>
+  <a href="#Courses" class="isbar-item isbutton">Courses</a>
+  <a href="#Activities" class="isbar-item isbutton">Outside Classroom</a>
+  <a href="#contact" class="isbar-item isbutton">Contact</a>
+</div>
+</div>
+
+<br><br>
+
+<!--welcome content -->
+<div class="iscontainer ispadding-32 isblack " style="opacity: 0.6; padding-right: 32px; padding-left: 32px;">
+    <h1>Hello !</h1>
+    <p class="isxlarge isjustify">Welcome to my ePortfolio webpage which hosts selected pieces of my work and represents my journey here at Pillai College of Engineering while I work toward my B.E. in Information Technology.<br>
+    I invite you to explore my ePortfolio in hopes you will get a better sense of who I am through my writing. <br>
+    Thank you for your time and your consideration. </p>
+</div>
+
+<br><br>
+
+<!--welcome content -->
+<div class="iscontainer ispadding-32 isteal " id="About" style="opacity: 0.6;">
+    <h1>A little more About Me</h1>
+    <p class="isxlarge isjustify">My name is Aishwarya Nadar. I am 21 year old,currently persuing my Bachelor of Engineering in Information Technology degree here at Pillai College Of Engineering. My aim is to seek a challenging career to enhance and utilize my skills and continue to sharpen my skills as a professional engineer while working with prestigious organizations. <br>
+    Outside the college, I love being in the outdoors, I specifically enjoy volley ball,rock-climbing,and hiking. My friends and family mean the world to me, and have always been a huge part of my life. 
+</p>
+</div>
+
+<br><br>
+
+
+<!-- Page Container -->
+<div class="iscontent ismargin-top" style="max-width:1400px;">
+
+  
+  <!-- The Grid -->
+  <div class="isrow-padding" id="Profile">
+  
+    <!-- Left Column -->
+    <div class="isthird">
+    
+      <div class="iswhite istext-grey iscard-4">
+        <div class="isdisplay-container">
+          <img src="user1.jpg" style="width:100%" height="400px" alt="Avatar">
+          <div class="isdisplay-bottomleft iscontainer istext-white">
+            <h2>Aishwarya Nadar</h2>
+          </div>
+        </div>
+        <div class="iscontainer">
+          <p><i class="fa fa-briefcase fa-fw ismargin-right islarge istext-teal"></i>Engineering Student</p>
+          <p><i class="fa fa-home fa-fw ismargin-right islarge istext-teal"></i>Sector 21, nerul, Navi-Mumbai, Maharashtra, India.</p>
+          <p><i class="fa fa-envelope fa-fw ismargin-right islarge istext-teal"></i>ex@mail.com</p>
+          <p><i class="fa fa-phone fa-fw ismargin-right islarge istext-teal"></i>1224435534</p>
+          <hr>
+
+          <p class="islarge"><b><i class="fa fa-asterisk fa-fw ismargin-right istext-teal"></i>Skills</b></p>
+          <p>Web Designing</p>
+          <div class="islight-grey isround-xlarge issmall">
+            <div class="iscontainer iscenter isround-xlarge isteal" style="width:90%">90%</div>
+          </div>
+          <p>User Interface</p>
+          <div class="islight-grey isround-xlarge issmall">
+            <div class="iscontainer iscenter isround-xlarge isteal" style="width:80%">
+              <div class="iscenter istext-white">80%</div>
+            </div>
+          </div>
+          <p>Animation</p>
+          <div class="islight-grey isround-xlarge issmall">
+            <div class="iscontainer iscenter isround-xlarge isteal" style="width:75%">75%</div>
+          </div>
+          <p>Media</p>
+          <div class="islight-grey isround-xlarge issmall">
+            <div class="iscontainer iscenter isround-xlarge isteal" style="width:50%">50%</div>
+          </div>
+          <br>
+
+          <p class="islarge istext-theme"><b><i class="fa fa-globe fa-fw ismargin-right istext-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="islight-grey isround-xlarge">
+            <div class="isround-xlarge isteal" style="height:19px;width:100%"></div>
+          </div>
+          <p>Hindi</p>
+          <div class="islight-grey isround-xlarge">
+            <div class="isround-xlarge isteal" style="height:19px;width:95%"></div>
+          </div>
+          <p>Marathi</p>
+          <div class="islight-grey isround-xlarge">
+            <div class="isround-xlarge isteal" style="height:19px;width:65%"></div>
+          </div>
+          <p>French</p>
+          <div class="islight-grey isround-xlarge">
+            <div class="isround-xlarge isteal" style="height:19px;width:35%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="istwothird">
+    
+      <div class="iscontainer iscard iswhite ismargin-bottom">
+
+        <h2 class="istext-grey ispadding-16"><i class="fa fa-suitcase fa-fw ismargin-right isxxlarge istext-teal"></i>Projects & Internships.</h2>
+
+        <div class="iscontainer">
+          <h5 class="isopacity"><b>Stock Price Prediction Using Machine Learning</b></h5>
+          <h6 class="istext-teal"><i class="fa fa-calendar fa-fw ismargin-right"></i>Jan2019 - May2020 &nbsp -> &nbsp <span class="istag isteal isround">Current</span></h6>
+          <p class="isjustify">Stock market prediction is the act of trying to determine the future value of a company's stock or other financial instrument traded on an exchange. The successful prediction of a stock's future price could yield significant profit. 
+          <span id="dots">...</span><span id="more">With the advent of the digital computer, stock market prediction has since moved intothe technological realm. The most prominent technique involves the use of artificial neural networks. The most common form of ANN in use for stock market prediction is the feed forward network utilizing the backward propagation of errors algorithm to update the network weights. SVM (Support vector machine Algorithm) implementation for stock prediction is another method.</span>
+          <a onclick="myFunction()" id="myBtn" style="color: blue; background-color: transparent; border:none; font-size: 15px;">Read more</a>
+          </p> 
+          <hr>
+        </div>
+        <div class="iscontainer">
+          <h5 class="isopacity"><b>Predictive Student Analysis</b></h5>
+          <h6 class="istext-teal"><i class="fa fa-calendar fa-fw ismargin-right"></i>July 2017 - Dec 2017</h6>
+          <p class="isjustify item">Performance analyses of the student through online system that analyses the students data to identify students on the average of dropping out of college and allowing college to take corrective measures to ensure students remain in college.<br><a onclick="myFunction()" id="myBtn" style="color: blue; background-color: transparent; border:none; font-size: 15px;">Read more</a></p>
+          <hr>
+          <hr>
+        </div>
+        <div class="iscontainer">
+          <h5 class="isopacity"><b>Web Designing / internshala.com </b></h5>
+          <h6 class="istext-teal"><i class="fa fa-calendar fa-fw ismargin-right"></i>May 2019 - July 2019</h6>
+          <p class="isjustify">Web design is the process of creating websites. It encompasses several different aspects, including webpage layout, content production, and graphic design. While the terms web design and web development are often used interchangeably,web design is technically a subset of the broader category of web development.<br><a onclick="myFunction()" id="myBtn" style="color: blue; background-color: transparent; border:none; font-size: 15px;">Read more</a></p>
+          <hr>
+        </div>
+        <div class="iscontainer">
+          <h5 class="isopacity"><b>Live Internship on BigData Analytics with Python Applications at GNU IT Solutions & Services Pvt. Ltd. (GITSS)</b></h5> 
+          <h6 class="istext-teal"><i class="fa fa-calendar fa-fw ismargin-right"></i>Mar 2018 - Aug 2018</h6>
+          <p class="isjustify">Working on creation of a law website similar to manupatra.com which would contain all the cases and judgements from the courts all over India.<br><a onclick="myFunction()" id="myBtn" style="color: blue; background-color: transparent; border:none; font-size: 15px;">Read more</a></p>
+        </div>
+
+      </div>
+
+    <!--scrip for read more button -->
+    <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+
+
+      <div class="iscontainer iscard iswhite" style="padding: 5px;">
+
+        <h2 class="istext-grey ispadding-16"><i class="fa fa-certificate fa-fw ismargin-right isxxlarge istext-teal"></i>Education</h2>
+
+       <div class="timeline"> 
+       <div class="container1 right">  
+        <div class="content">
+          <h5 style="color: black;"><b>Pillai College of Engineering</b></h5>
+          <h6 class="istext-teal"><i class="fa fa-calendar fa-fw ismargin-right"></i>2016 - 2020</h6>
+          <p style="color: solid black;font-size: 15px;margin-top: 0px;">Bachelor Of Engineering(IT)</p>
+        </div>
+      </div>
+        <div class="container1 right">
+          <div class="content">
+          <h5 style="color: black;"><b>SIES College of Arts, Commerce & Science</b></h5>
+          <h6 class="istext-teal"><i class="fa fa-calendar fa-fw ismargin-right"></i>2014 - 2016</h6>
+          <p style="color:solid black;font-size: 15px;margin-top: 0px;">HSC</p>
+          </div>
+        </div>
+      <div class="container1 right">
+          <div class="content">
+          <h5 style="color: black;"><b>St. Lawrence High School</b></h5>
+          <h6 class="istext-teal"><i class="fa fa-calendar fa-fw ismargin-right"></i>2014</h6>
+          <p style="color:solid black;font-size: 15px;margin-top: 0px;">SSC</p>
+          </div>
+      </div>
+    </div>
+    <!-- End Right Column -->
+    </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <button class="isbutton isblack ispadding-large ismargin-top" style="margin-left: 25px">
+    <i class="fa fa-download"></i> Download Resume
+  </button>
+
+  <!-- End Page Container -->
+</div>
+
+<br><br><br><br>
+
+<!-- Goals -->
+
+<div class="iscontainer ispadding-32 isteal isborder " id="Goals">
+  <header class="iscenter">Goals</header>
+</div>
+
+<div class="iscontainer ispadding-32 isteal " id="Goals" style="opacity: 0.6;">
+<div class="wsite-spacer" style="height:30px;"></div>
+
+  <table class="istable">
+
+   <tr >
+    <td class="iscol" style="margin-left:5%; width:40%; padding:0 15px;">
+            
+    <h2 class="iscontent isxlarge " style="text-align:center;">Short Term Goals &nbsp; </h2>
+
+    <div class="paragraph isjustify" style="text-align:left;">
+      <ul>
+        <li>Complete all of my Assignments and Experiments on-time.</li>
+        <li>Attend lectures on regularly.</li>
+        <li>Maintain a 7.5 CGPA.</li>
+        <li>Apply for the summer internships. </li>
+        <li>Lead a project.</li>
+      </ul>
+    </div>
+
+    </td>  
+
+    <td class="iscol" style="margin-left:7%; width:40%; padding:0 15px;">
+
+    <h2 class="iscontent isxlarge " style="text-align:center;">Long Term Goals&nbsp;</h2>
+
+    <div class="paragraph isjustify" style="text-align:left;">
+      <ul>
+        <li>Go on world tour.</li>
+        <li>Gain experience in a leadership role.</li>
+        <li>Lead a team.</li>
+        <li>Own a House and Luxorious Car.</li>
+        <li>Become known for your creativity.</li>
+      </ul>
+    </div>
+
+    </td>    
+
+  </tr>
+
+</table>
+
+</div>
+</div>
+
+<!-- parallax image 1 -->
+<div class="bgimg-1" id="Courses">
+  <div class="caption">
+  <span class="border isblack " style="background-color:transparent;font-size:25px;">Courses</span>
+  </div>
+</div>
+
+  <!-- Courses  -->
+  <div class="iscontainer ispadding-32 isblack iscenter"  style="opacity: 0.6;">
+
+    <!-- UI/UX Section -->
+    <div class="container">
+      <div class="row">
+        <div class="column-33">
+          <img class="img" src="ui.png" alt="App" width="400" height="500">
+        </div>
+        <div class="column-66">
+          <h3>Coursera</h3>
+          <h3 style="color:red;">UI/UX Design</h3>
+          <p class="iscenter"><span style="font-size:20px "> UI-UX Design.</span> Arena offers a comprehensive course that trains you on all aspects of user interface and user experience design to make you job ready. While UI design is about the look and feel of the website or app, UX design improves the overall experience of the users when they interact with the website or app.</p>
+          <button class="button" style="background-color:red" onclick="window.location.href='https://www.coursera.org/'">Visit website</button>
+        </div>
+      </div>
+    </div>
+
+
+    <hr class="isborder">
+
+    <!-- python language  Section -->
+
+    <div class="container">
+      <div class="row">
+        <div class="column-66">
+          <h3>Programming language</h3>
+          <h3 style="color:MediumSeaGreen;">Python</h3>
+          <p class="iscenter"><span style="font-size:20px">Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. </span> Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse.</p>
+          <button class="button" onclick="window.location.href='https://www.udemy.com/'">Visit Website</button>
+        </div>
+        <div class="column-33">
+            <img class="img" src="py.jpg" width="400" height="550">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- parallax scroll image 2-->
+<div class="bgimg-2" id="Activities" >
+  <div class="caption">
+  <span class="border isblack" style="background-color:transparent;font-size:25px;">Outside Classroom</span>
+  </div>
+</div>
+
+  <!-- extra curricular activities -->
+  <div class="iscontainer ispadding-64 isblack iscenter isborder" >
+
+    <!-- Photo grid -->
+    <div class="isrow">
+      <div class="isthird">
+        <img class="image" src="sport.jpg" style="width:90%; height: 300px;" onclick="onClick(this)" alt="playing volley ball game with group">
+      </div>
+
+      <div class="isthird">
+        <img class="image" src="cultural.jpg" style="width:90%; height: 300px;" onclick="onClick(this)" alt="What a beautiful youth song">
+      </div>
+
+
+      <div class="isthird">   
+        <img class="image" src="hackathon.png" style="width:90%; height: 300px;" onclick="onClick(this)" alt="participation in a coding Competition">
+      </div>
+    </div>
+
+  </div>
+
+<!-- Modal for full size images on click-->
+  <div id="modal01" class="ismodal isblack" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="isbutton isblack isxlarge isdisplay-topright">&times;</span>
+    <div class="ismodal-content isanimate-zoom iscenter istransparent ispadding-64">
+      <img id="img01" class="isimage">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+  </script>
+
+<!-- parallax scroll image 3-->
+<div class="bgimg-3" id="contact">
+  <div class="caption">
+  <span class="border isblack" style="background-color:transparent;font-size:25px;">Contact Me</span>
+  </div>
+</div>
+
+<!-- Contact Section -->
+  <div class="iscontainer ispadding-32">
+    <h1 class="isborder-bottom isborder-light-black ispadding-16">&nbsp Contact</h1>
+    <p>&nbsp Lets get in touch , Send me a message.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="isinput isborder" type="text" placeholder="Name" required name="Name">
+      <input class="isinput issection isborder" type="text" placeholder="Email" required name="Email">
+      <input class="isinput issection isborder" type="text" placeholder="Subject" required name="Subject">
+      <input class="isinput issection isborder" type="text" placeholder="Comment" required name="Comment">
+      <button class="isbutton isblack issection" type="submit">
+        <i class="fa fa-paper-plane"></i>&nbsp&nbsp&nbsp Send Message
+      </button>
+    </form>
+  </div>
+
+<!-- Footer Section -->
+<footer class="iscontainer iscenter ismargin-top" >
+  <p>Created & Designed by Amina&Aishwarya.</p>
+  <p>Information Technology</p>
+  <i class="fa fa-facebook-official ishover-opacity"></i>
+  <i class="fa fa-instagram ishover-opacity"></i>
+  <i class="fa fa-snapchat ishover-opacity"></i>
+  <i class="fa fa-pinterest-p ishover-opacity"></i>
+  <i class="fa fa-twitter ishover-opacity"></i>
+  <i class="fa fa-linkedin ishover-opacity"></i>
+  <p>Reserved for Pillai College of Engineering </p>
+</footer>
+
+</body>
+</html>
+
